@@ -1,0 +1,40 @@
+{
+  "name": "dazza-dev/dgii-sv-signer",
+  "description": "Paquete para firmar documento tributario electrónico (DTE) (Factura, Nota de remisión, Nota crédito, Nota débito y Comprobante de retención) basado en las especificaciones de la Dirección General de Impuestos Internos (DGII) de El Salvador.",
+  "keywords": [
+    "dgii",
+    "signer",
+    "firma",
+    "firmar dte",
+    "dte",
+    "factura electrónica",
+    "el salvador"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Andres Daza",
+      "email": "adaza90@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DazzaDev\\DgiiSvSigner\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DazzaDev\\DgiiSvSigner\\Tests\\": "tests/"
+    }
+  }
+}
